@@ -8,12 +8,22 @@ background-color:rgb(252, 250, 250);
 border: 1px solid rgb(7, 7, 7);
 }
 
-a{
-	color: rgb(55, 51, 107);
-}
 
 
 a:hover
 {
 color:rgb(190, 164, 68);
+}
+div.error{
+	background-color:rgb(247, 96, 37);
+	padding:5px;
+	border: 1px;
+	color:rgb(21, 21, 22);
+
+}
+div.resultat{
+	background-color:rgb(53, 187, 86);
+	padding:5px;
+	border: 1px;
+	color:rgb(247, 247, 253);
 }

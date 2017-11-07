@@ -1,0 +1,46 @@
+<! doctype html>
+
+<head>
+        
+    <link rel="stylesheet" href="index.css">
+   <script type="text/javascript" src="error.js"></script>
+    <title> formulaire </title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+<body>
+<table>
+    <tr>
+    <td>Nom: </td>
+   <td> <input type="text" name="nom" id="nom" minlength="5" maxlength="20"/></td>  <br> 
+    </tr>
+   
+    <tr> 
+    <td>Prénom:  </td>  
+    <td><input type="text" name="prenom" id="prenom" minlength="5" maxlength="20"/></td> <br>
+    </tr>
+    <tr> 
+      <td> Date de naissance:</td>
+      <td> <input type="Date" name="Date" id="date" /></td> <br>
+    </tr> 
+    <tr> 
+     <td>Adresse mail:</td>
+     <td> <input type="email" id="mail"name="email" minlength="5" maxlength="30" /></td> <br>
+    </tr> 
+    <tr> 
+    <td>Adresse Postal :</td>
+    <td><input type="text" name="adresse" id="adresse" minlength="5" maxlength="50" /></td> <br>
+    </tr> 
+    <tr>
+    
+    <td> <input type="button" value="valider" onclick="error()" /></td><br>
+    </tr>
+
+</table>
+<div class="error"  id="error">
+        
+    </div>
+    <div class="resultat"  id="resultat">
+        
+    </div>
+</body>
